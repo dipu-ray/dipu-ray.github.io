@@ -1,4 +1,3 @@
-
 # 🌐 Personal Portfolio Website
 
 This is my **personal portfolio website**.  
@@ -47,32 +46,6 @@ The portfolio site serves as an online showcase of my **projects**, **skills**, 
 
 ---
 
-## 🚀 Getting Started
-
-To use this project locally:
-
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/dipu-ray/personal-portfolio.git
-   ```
-
-2. **Navigate into the folder**  
-   ```bash
-   cd personal-portfolio
-   ```
-
-3. **Open in your browser**  
-   Open `index.html` with your preferred browser.
-
----
-
-## 📄 License
-
-This project is open-source.  
-You can use or modify it for personal and professional use.
-
----
-
 ## 👨‍💻 Author
 
 **Dipu Ray**  
@@ -81,14 +54,6 @@ You can use or modify it for personal and professional use.
 ---
 
 > “This portfolio website is an online showcase for an individual's work, skills, and experience.”
-
----
-
-## 🌐 Live Demo (Optional)
-
-👉 If you’ve deployed it (e.g., on GitHub Pages, Netlify), you can add a live demo link here:
-
-**🔗 [Live Website](https://your-live-site-link.com)**
 
 ---
 

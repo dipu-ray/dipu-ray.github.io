@@ -1,12 +1,10 @@
 # 🌐 Personal Portfolio Website
-
 This is my **personal portfolio website**.  
 The portfolio site serves as an online showcase of my **projects**, **skills**, **resume**, and **contact details**.
 
 ---
 
 ## 📁 Folder & File Structure
-
 ```
 📦 personal-portfolio
 ├── 📁 assets               # Assets like images, fonts, icons
@@ -25,7 +23,6 @@ The portfolio site serves as an online showcase of my **projects**, **skills**, 
 ---
 
 ## 🌟 Features
-
 - 🖥️ Personal portfolio to showcase work & experience
 - 🧑‍💼 Resume and professional background
 - 🧰 List of services with detailed pages
@@ -36,7 +33,6 @@ The portfolio site serves as an online showcase of my **projects**, **skills**, 
 ---
 
 ## 🔧 Built With
-
 | Technology | Usage                         |
 |------------|-------------------------------|
 | HTML       | Structure and layout (72.8%)  |
@@ -47,7 +43,6 @@ The portfolio site serves as an online showcase of my **projects**, **skills**, 
 ---
 
 ## 👨‍💻 Author
-
 **Dipu Ray**  
 🔗 GitHub: [dipu-ray](https://github.com/dipu-ray)
 

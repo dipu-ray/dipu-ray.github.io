@@ -13,11 +13,7 @@ The portfolio site serves as an online showcase of my **projects**, **skills**, 
 ├── contact.html           # Contact information & form
 ├── index.html             # Homepage / Landing page
 ├── portfolio.html         # Project gallery
-├── portfolio-details.html # Detailed view of projects
 ├── resume.html            # Resume or CV
-├── services.html          # List of services
-├── service-details.html   # Detailed service view
-├── starter-page.html      # Starter/template layout
 ```
 
 ---

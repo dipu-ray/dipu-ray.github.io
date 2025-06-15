@@ -30,11 +30,10 @@ The portfolio site serves as an online showcase of my **projects**, **skills**, 
 ## 🔧 Built With
 | Technology | Usage                         |
 |------------|-------------------------------|
-| HTML       | Structure and layout (72.8%)  |
-| CSS        | Styling and responsiveness (22.5%) |
-| JavaScript | Interactivity (3.8%)          |
-| PHP        | Form handling or logic (0.9%) |
-
+| HTML       | Structure and layout          |
+| CSS        | Styling and responsiveness    |
+| JavaScript | Interactivity                 |
+| PHP        | Form handling or logic        |
 ---
 
 ## 👨‍💻 Author

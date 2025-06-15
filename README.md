@@ -21,7 +21,6 @@ The portfolio site serves as an online showcase of my **projects**, **skills**, 
 ## 🌟 Features
 - 🖥️ Personal portfolio to showcase work & experience
 - 🧑‍💼 Resume and professional background
-- 🧰 List of services with detailed pages
 - 📂 Portfolio section with project details
 - 📬 Contact form integration
 - 💻 Fully responsive & modern design

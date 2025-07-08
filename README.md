@@ -40,7 +40,7 @@ The portfolio site serves as an online showcase of my **projects**, **skills**, 
 **Dipu Ray**  
 🔗 GitHub: [dipu-ray](https://github.com/dipu-ray)
 <br>
-🔗 Project: [Dipu's Portfolio](https://dipu-ray.github.io/personal-portfolio/)
+🔗 Project: [Dipu's Portfolio](https://dipu-ray.github.io/)
 
 ---
 

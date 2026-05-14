@@ -1,7 +1,7 @@
 # 🌐 Personal Portfolio Website
 
 This is my **personal portfolio website**.  
-This portfolio site as an online showcase of my **skills**, **projects**, and **education background**.
+This portfolio site as an online showcase of my **Skills**, **Projects**, and **Education Qualifications**.
 
 ---
 
@@ -47,7 +47,7 @@ This portfolio site as an online showcase of my **skills**, **projects**, and **
 
 ---
 
-> “This portfolio website is an online showcase for an individual's Skills, Projects, and Education.”
+> “This portfolio website is an online showcase for an individual's Skills, Projects, and Education Qualifications.”
 
 ---
 

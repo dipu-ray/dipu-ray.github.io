@@ -2,120 +2,768 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <title>Dipu Ray</title>
-  <meta name="description" content="dipu ray, personal portfolio website" />
-  <meta name="keywords" content="education, skills, experience" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dipu Ray</title>
 
-  <!-- Favicons -->
-  <link href="assets/img/fav_icon.jpg" rel="icon" />
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/icons/favicon.png" type="image/x-icon">
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect" />
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet" />
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
-
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700;900&family=Roboto+Mono:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="index-page">
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-      <a href="index.html" class="logo d-flex align-items-center">
-        <img src="assets/img/logo.png" alt="" />
-        <!-- <h1 class="sitename">Personal</h1> -->
-      </a>
+<body>
 
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-    </div>
-  </header>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <!-- Logo -->
+            <a href="#hero" class="logo">
+                <div class="logo-icon">DR</div>
+                <div class="logo-text">Dipu<span>Ray</span><span class="dot">.</span></div>
+            </a>
 
-  <main class="main">
+            <!-- Desktop Links -->
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <!-- CTA -->
+            <a href="#contact" class="btn-cta nav-btn">Let's Talk</a>
+
+            <!-- Mobile Checkbox & Label -->
+            <input type="checkbox" id="mobile-toggle">
+            <label for="mobile-toggle" class="mobile-toggle-btn">MENU ☰</label>
+
+            <!-- Mobile Dropdown -->
+            <div class="mobile-menu">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
     <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-      <img src="assets/img/hero-bg.png" alt="" data-aos="fade-in" />
-
-      <div class="container" data-aos="zoom-out" data-aos-delay="100">
-        <h2>Dipu Ray</h2>
-        <p>
-          I'm a
-          <span class="typed" data-typed-items="CS Student!, Lazy Programmer!">CS Student!</span><span
-            class="typed-cursor typed-cursor--blink"></span>
-        </p>
-      </div>
+    <section id="hero" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <div class="badge">
+                    <span class="badge-pulse"></span>
+                    Available for Work & Full-Time
+                </div>
+                <h1>Hi, I'm <span class="gradient-text">Dipu Ray</span><br>Pursuing Computer Science</h1>
+                <p>Currently pursuing my B.Sc. in Computer Science & Engineering (CSE) and working as a passionate
+                    Software Engineer specializing in scalable web applications. Proficient in JavaScript, React,
+                    Python, and Django, with a strong foundation in core computer science principles.</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn-cta">Explore Works</a>
+                    <a href="#contact" class="btn-outline">Get In Touch</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <h3>0</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>15+</h3>
+                        <p>Completed Projects</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>95+</h3>
+                        <p>Lighthouse Score</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="avatar-box">
+                    <img src="assets/images/dipu-ray.png" alt="Dipu Ray" class="avatar-img">
+                </div>
+                <div class="floating-tag tag-1">
+                    <div class="tag-icon">&lt;/&gt;</div>
+                    <div>
+                        <div class="tag-title">Specialty</div>
+                        <div class="tag-val">JavaScript & React.js</div>
+                    </div>
+                </div>
+                <div class="floating-tag tag-2">
+                    <div class="tag-icon">⚡</div>
+                    <div>
+                        <div class="tag-title">Role</div>
+                        <div class="tag-val">Frontend Developer</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <!-- /Hero Section -->
-  </main>
 
-  <footer id="footer" class="footer dark-background">
-    <div class="container">
-      <h3 class="sitename">Personal Portfolio</h3>
-      <p>
-        This is my personal portfolio website. Here is my education
-        backgrounds, skills etc. will be everything.
-      </p>
-      <div class="social-links d-flex justify-content-center">
-        <a href="https://web.facebook.com/dipu.591" target="_blank"><i class="bi bi-facebook"></i></a>
-        <a href="https://www.instagram.com/dipu_ray.16/" target="_blank"><i class="bi bi-instagram"></i></a>
-        <a href="https://x.com/dipu_ray23" target="_blank"><i class="bi bi-twitter-x"></i></a>
-        <a href="https://github.com/dipu-ray" target="_blank"><i class="bi bi-github"></i></a>
-        <a href="https://www.linkedin.com/in/dipu-ray/" target="_blank"><i class="bi bi-linkedin"></i></a>
-      </div>
-      <div class="container">
-        <div class="copyright">
-          <span>Copyright</span>
-          <strong class="px-1 sitename">2025.</strong>
-          <span>All Rights Reserved.</span>
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get To Know Me</span>
+                <h2 class="section-title">About My Journey</h2>
+                <p class="section-subtitle">Here is a glimpse into who I am and my journey.</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <h3>Who I Am & What I Do</h3>
+                    <p>Currently pursuing my B.Sc. in Computer Science & Engineering (CSE) and working as a passionate
+                        Software Engineer specializing in scalable web applications. Proficient in JavaScript, React,
+                        Python, and Django, with a strong foundation in core computer science principles.</p>
+                    <p>I love solving complex algorithmic problems, optimizing code for efficiency, and exploring new
+                        technologies. As a continuous learner, I actively build full-stack side projects and contribute
+                        to open-source communities.</p>
+                    <p>Seeking opportunities to collaborate with dynamic engineering teams as a Software Engineering
+                        Intern or Junior Developer to build impactful products.</p>
+                    <div class="about-features">
+                        <div class="feature-box">
+                            <div class="icon">📱</div>
+                            <span>Responsive Design</span>
+                        </div>
+                        <div class="feature-box">
+                            <div class="icon">⚡</div>
+                            <span>Fast Performance</span>
+                        </div>
+                        <div class="feature-box">
+                            <div class="icon">♿</div>
+                            <span>Accessibility & SEO</span>
+                        </div>
+                        <div class="feature-box">
+                            <div class="icon">⚙️</div>
+                            <span>Clean & Modular Code</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="services-group">
+                    <div class="service-card">
+                        <div class="service-icon">💻</div>
+                        <div class="service-info">
+                            <h4>Front-End Development</h4>
+                            <p>Developing pixel-perfect, end-to-end web apps crafted with React.js. Focused on frontend
+                                performance, high traffic optimization.</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">⚙️</div>
+                        <div class="service-info">
+                            <h4>Back-End Development</h4>
+                            <p>Building high-quality web backends with Python, Django REST Framework, and SQLite3.
+                                Dedicated to engineering secure REST APIs, clean database architectures, and efficient
+                                server-side logic.</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🚀</div>
+                        <div class="service-info">
+                            <h4>Full-Stack Development</h4>
+                            <p>Bridging frontend design and backend logic to transition into Full-Stack Engineering,
+                                focused on crafting complete, secure, and pixel-perfect web applications.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="credits">
-          <!-- credit or designed by section -->
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <input type="radio" id="sk-all" name="sk-filter" hidden checked>
+            <input type="radio" id="sk-front" name="sk-filter" hidden>
+            <input type="radio" id="sk-back" name="sk-filter" hidden>
+            <input type="radio" id="sk-tools" name="sk-filter" hidden>
+
+            <div class="section-header">
+                <span class="section-tag">Capabilities</span>
+                <h2 class="section-title">Technical Arsenal</h2>
+                <p class="section-subtitle">I continuously learn and adopt modern frameworks. Here is a breakdown of my
+                    current proficiency across various technologies.</p>
+            </div>
+
+            <div class="skills-filter">
+                <label for="sk-all" class="filter-btn">All Skills</label>
+                <label for="sk-front" class="filter-btn">Frontend</label>
+                <label for="sk-back" class="filter-btn">Backend</label>
+                <label for="sk-tools" class="filter-btn">Development Tools and AI</label>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Skill 1 -->
+                <div class="skill-item sk-front">
+                    <div class="skill-top">
+                        <div class="skill-icon" style="color: #f97316;"><i class="fa-brands fa-html5"></i></div>
+                        <span style="font-family: var(--font-mono); font-weight: 700;">95%</span>
+                    </div>
+                    <h4>HTML5</h4>
+                    <p>Structure and Content</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 95%;"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 2 -->
+                <div class="skill-item sk-front">
+                    <div class="skill-top">
+                        <div class="skill-icon" style="color: #3b82f6;"><i class="fa-brands fa-css3-alt"></i></div>
+                        <span style="font-family: var(--font-mono); font-weight: 700;">90%</span>
+                    </div>
+                    <h4>CSS3</h4>
+                    <p>Styling Layout</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 90%;"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 3 -->
+                <div class="skill-item sk-front">
+                    <div class="skill-top">
+                        <div class="skill-icon" style="color: #7952B3;"><i class="fa-brands fa-bootstrap"></i></div>
+                        <span style="font-family: var(--font-mono); font-weight: 700;">90%</span>
+                    </div>
+                    <h4>Bootstrap</h4>
+                    <p>Pre-Designed Components</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 90%;"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 4 -->
+                <div class="skill-item sk-front">
+                    <div class="skill-top">
+                        <div class="skill-icon" style="color: #38BDF8;"><i class="fa-solid fa-bolt"></i></div>
+                        <span style="font-family: var(--font-mono); font-weight: 700;">88%</span>
+                    </div>
+                    <h4>Tailwind CSS</h4>
+                    <p>Utility Classes</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 88%;"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 5 -->
+                <div class="skill-item sk-front">
+                    <div class="skill-top">
+                        <div class="skill-icon" style="color: #F7DF1E;"><i class="fa-brands fa-js"></i></div>
+                        <span style="font-family: var(--font-mono); font-weight: 700;">85%</span>
+                    </div>
+                    <h4>JavaScript</h4>
+                    <p>Interactivity Web</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 85%;"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 6 -->
+                <div class="skill-item sk-front">
+                    <div class="skill-top">
+                        <div class="skill-icon" style="color: var(--accent-cyan);"><i class="fa-brands fa-react"></i>
+                        </div>
+                        <span style="font-family: var(--font-mono); font-weight: 700;">80%</span>
+                    </div>
+                    <h4>React.js</h4>
+                    <p>Fast and Interactive</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 80%;"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 7 -->
+                <div class="skill-item sk-back">
+                    <div class="skill-top">
+                        <div class="skill-icon" style="color: #3776AB;"><i class="fa-brands fa-python"></i></div>
+                        <span style="font-family: var(--font-mono); font-weight: 700;">80%</span>
+                    </div>
+                    <h4>Python</h4>
+                    <p>High-Level Language</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 80%;"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 8 -->
+                <div class="skill-item sk-back">
+                    <div class="skill-top">
+                        <div class="skill-icon" style="color: #092E20;"><i class="fa-solid fa-bolt"></i></div>
+                        <span style="font-family: var(--font-mono); font-weight: 700;">80%</span>
+                    </div>
+                    <h4>Django</h4>
+                    <p>Maintainable Websites</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 80%;"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 9 -->
+                <div class="skill-item sk-back">
+                    <div class="skill-top">
+                        <div class="skill-icon" style="color: #003B57;"><i class="fa-solid fa-database"></i></div>
+                        <span style="font-family: var(--font-mono); font-weight: 700;">80%</span>
+                    </div>
+                    <h4>SQLite</h4>
+                    <p>SQL Database Engine</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 80%;"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 10 -->
+                <div class="skill-item sk-back">
+                    <div class="skill-top">
+                        <div class="skill-icon" style="color: #00A3E0;"><i class="fa-solid fa-gear"></i></div>
+                        <span style="font-family: var(--font-mono); font-weight: 700;">80%</span>
+                    </div>
+                    <h4>REST API</h4>
+                    <p>Lightweight, Scalable</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 80%;"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 11 -->
+                <div class="skill-item sk-tools">
+                    <div class="skill-top">
+                        <div class="skill-icon" style="color: #F05032;"><i class="fa-brands fa-git-alt"></i></div>
+                        <span style="font-family: var(--font-mono); font-weight: 700;">95%</span>
+                    </div>
+                    <h4>Git</h4>
+                    <p>Version control</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 95%;"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 12 -->
+                <div class="skill-item sk-tools">
+                    <div class="skill-top">
+                        <div class="skill-icon" style="color: #ffffff;"><i class="fa-brands fa-github"></i></div>
+                        <span style="font-family: var(--font-mono); font-weight: 700;">95%</span>
+                    </div>
+                    <h4>GitHub</h4>
+                    <p>Cloud-Based Platform</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 95%;"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 13 -->
+                <div class="skill-item sk-tools">
+                    <div class="skill-top">
+                        <div class="skill-icon" style="color: #007ACC;"><i class="fa-solid fa-code"></i></div>
+                        <span style="font-family: var(--font-mono); font-weight: 700;">95%</span>
+                    </div>
+                    <h4>Visual Studio Code</h4>
+                    <p>Code Editor</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 95%;"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 14 -->
+                <div class="skill-item sk-tools">
+                    <div class="skill-top">
+                        <div class="skill-icon" style="color: #00C7B7;"><i class="fa-solid fa-bolt"></i></div>
+                        <span style="font-family: var(--font-mono); font-weight: 700;">90%</span>
+                    </div>
+                    <h4>Netlify</h4>
+                    <p>Deploying Websites</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 90%;"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 15 -->
+                <div class="skill-item sk-tools">
+                    <div class="skill-top">
+                        <div class="skill-icon" style="color: #000000;"><i class="fa-solid fa-bolt"></i></div>
+                        <span style="font-family: var(--font-mono); font-weight: 700;">90%</span>
+                    </div>
+                    <h4>Vercel</h4>
+                    <p>Deploying Websites</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 90%;"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 16 -->
+                <div class="skill-item sk-tools">
+                    <div class="skill-top">
+                        <div class="skill-icon" style="color: #FFCA28;"><i class="fa-solid fa-fire"></i></div>
+                        <span style="font-family: var(--font-mono); font-weight: 700;">80%</span>
+                    </div>
+                    <h4>Firebase</h4>
+                    <p>Hosting & Analytics</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 80%;"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 17 -->
+                <div class="skill-item sk-tools">
+                    <div class="skill-top">
+                        <div class="skill-icon" style="color: #F24E1E;"><i class="fa-brands fa-figma"></i></div>
+                        <span style="font-family: var(--font-mono); font-weight: 700;">90%</span>
+                    </div>
+                    <h4>Figma</h4>
+                    <p>User Interfaces (UI)</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 90%;"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 18 -->
+                <div class="skill-item sk-tools">
+                    <div class="skill-top">
+                        <div class="skill-icon" style="color: #00C4CC;"><i class="fa-solid fa-bolt"></i></div>
+                        <span style="font-family: var(--font-mono); font-weight: 700;">90%</span>
+                    </div>
+                    <h4>Canva</h4>
+                    <p>Online Design Platform</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 90%;"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 19 -->
+                <div class="skill-item sk-tools">
+                    <div class="skill-top">
+                        <div class="skill-icon" style="color: #D97757;"><i class="fa-solid fa-bolt"></i></div>
+                        <span style="font-family: var(--font-mono); font-weight: 700;">80%</span>
+                    </div>
+                    <h4>Claude</h4>
+                    <p>AI Tools or LLMs</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 80%;"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 20 -->
+                <div class="skill-item sk-tools">
+                    <div class="skill-top">
+                        <div class="skill-icon" style="color: #0ea5e9;"><i class="fa-solid fa-bolt"></i></div>
+                        <span style="font-family: var(--font-mono); font-weight: 700;">80%</span>
+                    </div>
+                    <h4>Gemini</h4>
+                    <p>AI Tools or LLMs</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 80%;"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 21 -->
+                <div class="skill-item sk-tools">
+                    <div class="skill-top">
+                        <div class="skill-icon" style="color: #0ea5e9;"><i class="fa-brands fa-openai"></i></div>
+                        <span style="font-family: var(--font-mono); font-weight: 700;">80%</span>
+                    </div>
+                    <h4>ChatGPT</h4>
+                    <p>AI Tools or LLMs</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 80%;"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 22 -->
+                <div class="skill-item sk-tools">
+                    <div class="skill-top">
+                        <div class="skill-icon" style="color: #0ea5e9;"><i class="fa-solid fa-bolt"></i></div>
+                        <span style="font-family: var(--font-mono); font-weight: 700;">80%</span>
+                    </div>
+                    <h4>Cursor</h4>
+                    <p>AI Code Editor</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 80%;"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 23 -->
+                <div class="skill-item sk-tools">
+                    <div class="skill-top">
+                        <div class="skill-icon" style="color: #0ea5e9;"><i class="fa-solid fa-bolt"></i></div>
+                        <span style="font-family: var(--font-mono); font-weight: 700;">80%</span>
+                    </div>
+                    <h4>Copilot</h4>
+                    <p>AI Assistant</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 80%;"></div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </footer>
+    </section>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <input type="radio" id="pj-all" name="pj-filter" hidden checked>
+            <input type="radio" id="pj-web" name="pj-filter" hidden>
+            <input type="radio" id="pj-saas" name="pj-filter" hidden>
+            <input type="radio" id="pj-ecom" name="pj-filter" hidden>
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
+            <div class="section-header">
+                <span class="section-tag">Featured Works</span>
+                <h2 class="section-title">Recent Projects</h2>
+                <p class="section-subtitle">A curated selection of web applications and digital platforms I have
+                    successfully designed, built, and shipped.</p>
+            </div>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+            <div class="proj-filter">
+                <label for="pj-all" class="filter-btn">All Projects</label>
+                <label for="pj-web" class="filter-btn">Frontend</label>
+                <label for="pj-saas" class="filter-btn">Backend</label>
+                <label for="pj-ecom" class="filter-btn">Full-Stack</label>
+            </div>
 
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+                <div class="project-card pj-web">
+                    <img src="assets/projects/project-screenshot.png" alt="Result Page Project Screenshot"
+                        class="proj-img">
+                    <div class="proj-body">
+                        <div>
+                            <div class="proj-tags"><span>Frontend</span><span>HTML & CSS</span></div>
+                            <h3>Student Result Page</h3>
+                            <p>Built a Student Result Page designed to deliver clean and structured student performance
+                                data. High-contrast UI for seamless readability.</p>
+                        </div>
+                        <div class="proj-footer">
+                            <a href="https://github.com/dipu-ray/css-projects/tree/main/b.%20student-result-page"
+                                target="_blank" class="proj-btn">See more →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 1.2 -->
+                <div class="project-card pj-web">
+                    <img src="assets/projects/project-screenshot-2.png" alt="E-Commerce Project Screenshot"
+                        class="proj-img">
+                    <div class="proj-body">
+                        <div>
+                            <div class="proj-tags"><span>Frontend</span><span>Bootstrap5</span></div>
+                            <h3>E-Commerce Websites</h3>
+                            <p>Developed a clean and user-friendly E-commerce websites using bootstrap and product page
+                                component featuring dynamic price layouts and interactive cart controls.</p>
+                        </div>
+                        <div class="proj-footer">
+                            <a href="https://github.com/dipu-ray/bootstrap-projects/tree/main/b.%20e-commerce-website"
+                                target="_blank" class="proj-btn">See more →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card pj-saas">
+                    <img src="https://images.unsplash.com/photo-1556742049-0a54d5c97726?q=80&w=1000&auto=format&fit=crop"
+                        alt="Nova Analytics" class="proj-img">
+                    <div class="proj-body">
+                        <div>
+                            <div class="proj-tags"><span>Backend</span><span>Django</span></div>
+                            <h3>Pending...</h3>
+                            <p>A high-performance financial SaaS application providing real-time artificial intelligence
+                                metrics, revenue forecasting, and customizable widgets.</p>
+                        </div>
+                        <div class="proj-footer">
+                            <a href="#x" class="proj-btn">See more →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card pj-ecom">
+                    <img src="https://images.unsplash.com/photo-1556742049-0a54d5c97726?q=80&w=1000&auto=format&fit=crop"
+                        alt="LuxeStore E-Commerce" class="proj-img">
+                    <div class="proj-body">
+                        <div>
+                            <div class="proj-tags"><span>Full-Stack</span><span>React & Django</span></div>
+                            <h3>Pending...</h3>
+                            <p>Luxury fashion online marketplace equipped with payment gateway integration, headless
+                                product catalog, and instant search.</p>
+                        </div>
+                        <div class="proj-footer">
+                            <a href="#x" class="proj-btn">See more →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Experience Timeline -->
+    <section id="education">
+        <div class="container">
+            <!-- <input type="radio" id="tm-exp" name="tm-filter" hidden checked>
+            <input type="radio" id="tm-edu" name="tm-filter" hidden> -->
+
+            <div class="section-header">
+                <span class="section-tag">Qualifications</span>
+                <h2 class="section-title">Career Track Record</h2>
+                <p class="section-subtitle">My academic foundation and professional track record across top technology
+                    teams.</p>
+            </div>
+
+            <!-- <div class="timeline-filter">
+                <label for="tm-exp" class="filter-btn">Work Experience</label>
+                <label for="tm-edu" class="filter-btn">Education</label>
+            </div> -->
+
+            <div class="timeline-container">
+                <div class="line-vertical"></div>
+
+                <!-- Experience List -->
+                <!-- <div id="list-exp" class="timeline-list">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <span class="timeline-date">2023 - Present</span>
+                        <h4>Senior Full-Stack Architect</h4>
+                        <h5>Apex Labs Corp</h5>
+                        <p>Spearheaded the migration of legacy monolithic architectures to modular micro-frontends.
+                            Reduced server operational costs by 35% and improved overall page load speeds.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <span class="timeline-date">2021 - 2023</span>
+                        <h4>Frontend Development Lead</h4>
+                        <h5>Vanguard Digital Studio</h5>
+                        <p>Managed a multidisciplinary team of 6 engineers. Delivered over 25 client web portals and
+                            established comprehensive UI component libraries and design workflows.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <span class="timeline-date">2019 - 2021</span>
+                        <h4>Junior Software Engineer</h4>
+                        <h5>BlueWave Tech</h5>
+                        <p>Developed responsive landing pages, integrated REST APIs, and wrote unit tests for core
+                            banking modules. Collaborated closely with QA to maintain 99.8% bug-free releases.</p>
+                    </div>
+                </div> -->
+
+                <!-- Education List -->
+                <div id="list-edu" class="timeline-list">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <span class="timeline-date">Jan 2025 - June 2028</span>
+                        <h4>B.Sc. in Computer Science and Engineering</h4>
+                        <h5>Northern University Bangladesh, Dhaka</h5>
+                        <p>Learning in Software Engineering, Data Structures, Algorithms, Database Management System
+                            (DBMS) and Distributed Systems. Capstone project focused on real-time collaboration engines.
+                        </p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <span class="timeline-date">Sept 2020 - Dec 2024</span>
+                        <h4>Diploma in Computer Engineering</h4>
+                        <h5>Shariatpur Polytechnic Institute, Shariatpur</h5>
+                        <p>Activities and societies: Scouts, Programming contest and Hinduism Religion Society.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <span class="timeline-date">Jan 2015 - Feb 2020</span>
+                        <h4>SSC in Humanities Group</h4>
+                        <h5>Chiraviza Golna B.L High School, Jaldhaka, Nilphamari</h5>
+                        <p>Activities and societies: Playing Crickets and Singing or Music</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container contact-grid">
+            <div class="contact-info">
+                <div>
+                    <span class="section-tag">Get In Touch</span>
+                    <h3>Let's Build Something Awesome</h3>
+                    <p>Have a project proposal, freelance opportunity, or just want to say hi? Feel free to reach out
+                        using the form or connect directly.</p>
+                </div>
+                <div class="contact-cards">
+                    <div class="contact-card">
+                        <div class="contact-icon">✉️</div>
+                        <div>
+                            <h5>Email Address</h5>
+                            <a href="mailto:dipu34786@gmail.com">dipu34786@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h5>Location</h5>
+                            <h4>Mirpur-2, Dhaka, Bangladesh</h4>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <h5>Direct Phone</h5>
+                            <a href="tel:+8801707747098">+8801707747098</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <form action="#contact" method="GET" class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="fullname">Full Name *</label>
+                            <input type="text" id="fullname" name="name" required placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message *</label>
+                        <textarea id="message" name="message" rows="5" required
+                            placeholder="Project details, timeline, deliverables..."></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <a href="#hero" class="logo">
+                    <div class="logo-icon">DR</div>
+                    <div class="logo-text">Dipu<span>Ray</span><span class="dot">.</span></div>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <a href="#hero" class="btn-outline">Back to Top ↑</a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026. All rights reserved.</p>
+                <p>Designed & developed by Dipu Ray.</p>
+            </div>
+        </div>
+    </footer>
+
 </body>
 
 </html>

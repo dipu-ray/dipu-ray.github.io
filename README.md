@@ -47,8 +47,4 @@ This portfolio site as an online showcase of my **Skills**, **Projects**, and **
 
 ---
 
-> “This portfolio website is an online showcase for an individual's Skills, Projects, and Education Qualifications.”
-
----
-
 Thank you for visiting this project! ⭐

@@ -1,4 +1,4 @@
-/* ─── RESET & BASE ─────────────────────────────── */
+/* Reset & Base */
 *,
 *::before,
 *::after {
@@ -7,6 +7,7 @@
     box-sizing: border-box;
 }
 
+/* Pre build properties */
 :root {
     --bg: #09090f;
     --surface: #111120;
@@ -38,7 +39,7 @@ body {
     overflow-x: hidden;
 }
 
-/* ─── NOISE OVERLAY ────────────────────────────── */
+/* Noise Overlay */
 body::before {
     content: '';
     position: fixed;
@@ -61,7 +62,7 @@ section {
     z-index: 1;
 }
 
-/* ─── SCROLLBAR ─────────────────────────────────── */
+/* Scrollbar */
 ::-webkit-scrollbar {
     width: 6px;
 }
@@ -75,7 +76,7 @@ section {
     border-radius: 99px;
 }
 
-/* ─── KEYFRAMES ─────────────────────────────────── */
+/* CSS Animations */
 @keyframes float {
 
     0%,
@@ -162,7 +163,7 @@ section {
     }
 }
 
-/* ─── NAVIGATION ────────────────────────────────── */
+/* Navigation Bar */
 nav {
     position: fixed;
     top: 0;
@@ -301,7 +302,7 @@ nav .container {
     color: var(--text);
 }
 
-/* ─── SECTION LABELS ────────────────────────────── */
+/* Section Labels */
 .section-tag {
     display: inline-flex;
     align-items: center;
@@ -340,7 +341,7 @@ nav .container {
     margin-bottom: 56px;
 }
 
-/* ─── HERO ──────────────────────────────────────── */
+/* Hero or Home Section */
 #home {
     min-height: 100vh;
     display: flex;
@@ -660,7 +661,7 @@ nav .container {
     letter-spacing: .04em;
 }
 
-/* ─── ABOUT ─────────────────────────────────────── */
+/* About Section */
 #about {
     padding: 120px 0;
 }
@@ -761,7 +762,7 @@ nav .container {
     flex-shrink: 0;
 }
 
-/* ─── SKILLS ────────────────────────────────────── */
+/* Skills Section */
 #skills {
     padding: 120px 0;
     background: linear-gradient(180deg, transparent, rgba(124, 106, 255, .03) 50%, transparent);
@@ -894,7 +895,7 @@ nav .container {
     color: var(--accent1);
 }
 
-/* ─── PROJECTS ──────────────────────────────────── */
+/* Projects Section */
 #projects {
     padding: 120px 0;
 }
@@ -1083,7 +1084,7 @@ nav .container {
     color: var(--accent1);
 }
 
-/* ─── EDUCATION ─────────────────────────────────── */
+/* Education Section */
 #education {
     padding: 120px 0;
     background: linear-gradient(180deg, transparent, rgba(61, 240, 200, .02) 50%, transparent);
@@ -1227,7 +1228,7 @@ nav .container {
     font-weight: 500;
 }
 
-/* ─── CONTACT ───────────────────────────────────── */
+/* Contact Section */
 #contact {
     padding: 120px 0;
 }
@@ -1393,7 +1394,7 @@ nav .container {
     transform: translateY(0);
 }
 
-/* ─── FOOTER ────────────────────────────────────── */
+/* Footer Section */
 footer {
     border-top: 1px solid var(--border);
     padding: 40px 0;
@@ -1454,14 +1455,14 @@ footer {
     transform: translateY(-3px);
 }
 
-/* ─── DIVIDER ────────────────────────────────────── */
+/* Divider */
 .divider {
     height: 1px;
     background: linear-gradient(90deg, transparent, var(--border), transparent);
     margin: 0 32px;
 }
 
-/* ─── REVEAL ANIMATIONS ─────────────────────────── */
+/* Reveal Animations */
 .reveal {
     opacity: 0;
     transform: translateY(30px);
@@ -1473,7 +1474,7 @@ footer {
     transform: translateY(0);
 }
 
-/* ─── RESPONSIVE ────────────────────────────────── */
+/* Responsive Design */
 @media (max-width: 1024px) {
     .hero-inner {
         grid-template-columns: 1fr;

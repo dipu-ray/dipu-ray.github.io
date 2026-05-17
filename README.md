@@ -1,20 +1,21 @@
-# 🌐 Personal Portfolio Website
+# 🌐 Personal Portfolio
 
-This is my **personal portfolio website**.  
-This portfolio site as an online showcase of my **Skills**, **Projects**, and **Education Qualifications**.
+This is my **personal portfolio**.  
+This portfolio site as an online showcase of my **Skills**, **Projects**, and **Education Qualifications**. Additionally, whole projects developed using raw code.
 
 ---
 
 ## 📁 Folder & File Structure
 
 ```
-📦 personal-portfolio
+📦 personal-portfolio           # Project name
 ├── 📂 assets/                  # Media files
-│   ├── 📂 icons/               # SVG icons
-│   ├── 📂 images/              # Biography photos
-│   ├── 📂 projects/            # Projects images
+│   ├── 📂 images/              # Photos & images
+│   ├── 📂 projects-images/     # Projects screenshots
+│   ├── 📂 resume/              # My resume
 ├── README.md                   # Project documentation
 ├── index.html                  # Landing page
+├── script.js                   # Functionality and interact
 ├── style.css                   # Style and color
 ```
 
@@ -22,19 +23,22 @@ This portfolio site as an online showcase of my **Skills**, **Projects**, and **
 
 ## 🌟 Features
 
-- Header & Navigation Menu
-- Interactive Interactive Timeline
-- Visual Background Atmosphere
-- Fully Responsive & Modern Design
+- Header and navigation menu
+- CSS color gradient animations
+- Using multiple cards with grid system
+- Interactive timeline bar
+- Visual background atmosphere
+- Fully responsive and modern UI
 
 ---
 
 ## 🔧 Built With
 
-| Technology | Usage                      |
-| ---------- | -------------------------- |
-| HTML       | Structure and layout       |
-| CSS        | Styling and responsiveness |
+| Technology | Usage                           |
+| ---------- | ------------------------------- |
+| HTML       | Structure and layout            |
+| CSS        | Styling and responsiveness      |
+| JavaScript | Interactivity and functionality |
 
 ---
 

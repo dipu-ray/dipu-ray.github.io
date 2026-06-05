@@ -95,50 +95,6 @@ section {
     }
 }
 
-@keyframes slide-up {
-    from {
-        opacity: 0;
-        transform: translateY(40px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes fade-in {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes bar-grow {
-    from {
-        width: 0;
-    }
-}
-
-@keyframes blob {
-
-    0%,
-    100% {
-        border-radius: 60% 40% 55% 45% / 50% 60% 40% 50%;
-    }
-
-    33% {
-        border-radius: 40% 60% 45% 55% / 60% 40% 55% 45%;
-    }
-
-    66% {
-        border-radius: 55% 45% 60% 40% / 45% 55% 50% 50%;
-    }
-}
-
 /* Navigation Bar */
 nav {
     position: fixed;
@@ -335,7 +291,6 @@ nav .container {
 .hero-blob {
     position: absolute;
     border-radius: 60% 40% 55% 45% / 50% 60% 40% 50%;
-    animation: blob 10s ease-in-out infinite, float 8s ease-in-out infinite;
     filter: blur(80px);
     opacity: .18;
 }
@@ -397,7 +352,6 @@ nav .container {
     font-size: .8rem;
     color: var(--accent1);
     margin-bottom: 28px;
-    animation: slide-up .6s ease both;
 }
 
 .hero-badge-dot {
@@ -423,7 +377,6 @@ nav .container {
     line-height: 1;
     letter-spacing: -.03em;
     margin-bottom: 16px;
-    animation: slide-up .6s .1s ease both;
 }
 
 .hero-name span {
@@ -438,7 +391,6 @@ nav .container {
     color: var(--muted);
     margin-bottom: 24px;
     font-weight: 300;
-    animation: slide-up .6s .2s ease both;
 }
 
 .hero-role b {
@@ -452,14 +404,12 @@ nav .container {
     font-size: 1rem;
     max-width: 460px;
     margin-bottom: 40px;
-    animation: slide-up .6s .3s ease both;
 }
 
 .hero-actions {
     display: flex;
     gap: 16px;
     flex-wrap: wrap;
-    animation: slide-up .6s .4s ease both;
 }
 
 .btn-primary {
@@ -513,7 +463,6 @@ nav .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: fade-in .8s .4s ease both;
 }
 
 .avatar-wrap {
@@ -544,7 +493,6 @@ nav .container {
     border-radius: 50%;
     background: linear-gradient(135deg, var(--accent1) 0%, var(--accent2) 50%, var(--accent3) 100%);
     background-size: 300% 300%;
-    animation: gradient-shift 6s ease infinite;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -613,7 +561,6 @@ nav .container {
     margin-top: 48px;
     padding-top: 40px;
     border-top: 1px solid var(--border);
-    animation: slide-up .6s .5s ease both;
 }
 
 .stat-item h3 {
@@ -831,7 +778,6 @@ nav .container {
     height: 100%;
     border-radius: 99px;
     background: var(--grad);
-    animation: bar-grow .8s .2s cubic-bezier(.4, 0, .2, 1) both;
     transform-origin: left;
 }
 
@@ -1354,7 +1300,6 @@ nav .container {
     cursor: pointer;
     letter-spacing: .04em;
     transition: transform .25s, box-shadow .25s, opacity .25s;
-    animation: gradient-shift 4s ease infinite;
 }
 
 .form-submit:hover {

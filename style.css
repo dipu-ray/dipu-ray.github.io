@@ -503,7 +503,6 @@ nav .container {
     align-items: center;
     gap: 8px;
     transition: transform .25s, box-shadow .25s;
-    animation: gradient-shift 4s ease infinite;
 }
 
 .btn-primary:hover {

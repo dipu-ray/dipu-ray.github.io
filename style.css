@@ -194,7 +194,6 @@ nav .container {
     background-size: 200% 200%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: gradient-shift 4s ease infinite;
 }
 
 .nav-links {

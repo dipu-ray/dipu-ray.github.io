@@ -456,7 +456,6 @@ nav .container {
     background-size: 300% 300%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: gradient-shift 5s ease infinite;
 }
 
 .hero-role {

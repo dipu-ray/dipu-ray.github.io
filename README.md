@@ -14,3 +14,9 @@ _Crafting clean UIs & smooth interactions_
 
 **Started:** 03 June, 2025  
 **Last Updated:** 07 June, 2026
+
+---
+
+## 👨‍💻 About
+
+This is my personal portfolio website — built to showcase my skills, projects, and professional journey as a **Frontend Developer**. The site reflects my passion for clean UI, smooth interactions, and well-structured code.

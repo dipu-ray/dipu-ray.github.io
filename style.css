@@ -95,6 +95,18 @@ section {
     }
 }
 
+@keyframes pulse-ring {
+    0% {
+        transform: scale(1);
+        opacity: .6;
+    }
+
+    100% {
+        transform: scale(1.6);
+        opacity: 0;
+    }
+}
+
 /* Navigation Bar */
 nav {
     position: fixed;
@@ -365,9 +377,10 @@ nav .container {
 .hero-badge-dot::after {
     content: '';
     position: absolute;
-    inset: -2px;
+    inset: -4px;
     border-radius: 50%;
     background: var(--accent3);
+    animation: pulse-ring 1.5s ease-out infinite;
 }
 
 .hero-name {
@@ -1529,23 +1542,7 @@ footer {
 }
 
 @media (max-width: 480px) {
-    .avatar-wrap {
-        width: 200px;
-        height: 200px;
-    }
-
-    .avatar-img {
-        width: 200px;
-        height: 200px;
-    }
-
     .hero-name {
         font-size: 2rem;
-    }
-
-    .chip-1,
-    .chip-2,
-    .chip-3 {
-        display: none;
     }
 }

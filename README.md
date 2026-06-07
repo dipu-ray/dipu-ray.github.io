@@ -14,7 +14,7 @@ _Crafting clean UIs & smooth interactions_
 </div>
 
 **Started:** 03 June, 2025  
-**Last Updated:** 07 June, 2026
+**Last Updated:** 08 June, 2026
 
 ---
 
@@ -34,8 +34,8 @@ This is my personal portfolio website — built to showcase my skills, projects,
     <td><b>📱 Mobile View</b></td>
   </tr>
   <tr>
-    <td><img src="./assets/project-screenshots/desktop.png" width="500px"></td>
-    <td><img src="./assets/project-screenshots/mobile.png" width="180px"></td>
+    <td><img src="./assets/demo/desktop.png" width="500px"></td>
+    <td><img src="./assets/demo/mobile.png" width="180px"></td>
   </tr>
 </table>
 
@@ -55,11 +55,11 @@ This is my personal portfolio website — built to showcase my skills, projects,
 
 ## 🛠️ Tech Stack
 
-| Technology | Purpose             |
-| ---------- | ------------------- |
-| HTML       | Page Structure      |
-| CSS        | Styling & Layout    |
-| JavaScript | Form Logic & Popups |
+| Technology | Purpose          |
+| ---------- | ---------------- |
+| HTML       | Page Structure   |
+| CSS        | Styling & Layout |
+| JavaScript | Interactive      |
 
 ---
 
@@ -68,8 +68,9 @@ This is my personal portfolio website — built to showcase my skills, projects,
 ```
 portfolio/
 ├── assets/                         # Non code files
+│   └── demo/                       # Portfolio Demo
 │   └── images/                     # Images & Icon
-│   └── project-screenshots/        # Project Demo
+│   └── projects/                   # Projects Photos
 │   └── resume/                     # Resume or CV
 ├── README.md
 └── googled8cb6529e2c44247.html     # GSC site verification file

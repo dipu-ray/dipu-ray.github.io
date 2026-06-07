@@ -73,7 +73,6 @@ portfolio/
 │   └── projects/                   # Projects Photos
 │   └── resume/                     # Resume or CV
 ├── README.md
-└── googled8cb6529e2c44247.html     # GSC site verification file
 └── index.html
 └── script.js
 └── style.css

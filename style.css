@@ -943,6 +943,12 @@ nav .container {
     border: 1px solid rgba(255, 106, 155, .2);
 }
 
+.badge-archive {
+    background: #2A2A2A;
+    color: #A0A0A0;
+    border: 1px solid #2a2a2ac9;
+}
+
 .project-body {
     padding: 24px;
 }

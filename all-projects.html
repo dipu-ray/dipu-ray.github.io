@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Explore the portfolio of Dipu Ray featuring latest projects, technical skills, and professional experience in software development.">
+    <meta name="keywords"
+        content="portfolio, frontend developer, backend developer, full stack developer, software engineer, dipu ray">
+    <meta name="author" content="Dipu Ray">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dipu Ray</title>
+
+    <!-- Google "Poppins" Fonts CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Add Favicon -->
+    <link rel="shortcut icon" href="assets/icons/favicon.png" type="image/x-icon">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <!-- To add my CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav id="navbar">
+            <div class="container">
+                <div>
+                    <a href="index.html" class="logo">DR.</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact" class="nav-cta">Contact →</a></li>
+                </ul>
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Mobile Menu or Navbar -->
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#home" onclick="closeMobile()">Home</a>
+            <a href="#about" onclick="closeMobile()">About</a>
+            <a href="#skills" onclick="closeMobile()">Skills</a>
+            <a href="#projects" onclick="closeMobile()">Projects</a>
+            <a href="#education" onclick="closeMobile()">Education</a>
+            <a href="#contact" onclick="closeMobile()">Contact</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Projects Section -->
+        <section id="projects">
+            <div class="container">
+                <div class="projects-header reveal">
+                    <div>
+                        <div class="section-tag">My Work</div>
+                        <h2 class="section-title">Featured Projects</h2>
+                        <p class="section-sub">
+                            A selection of projects that showcase my range across product, design, and engineering.
+                        </p>
+                    </div>
+                    <a href="all-projects.html" class="btn-secondary" style="white-space:nowrap">All Projects →</a>
+                </div>
+                <div class="projects-grid">
+
+                    <!-- Project 1 -->
+                    <div class="project-card featured reveal">
+                        <div class="project-thumb bg-p1">
+                            <div class="project-thumb-bg">
+                                <img src="assets/images/projects/netflix-clone.png"
+                                    alt="Netflix Clone Project Screenshot">
+                            </div>
+                            <span class="project-badge badge-archive">Archived</span>
+                        </div>
+                        <div class="project-body">
+                            <h3>Netflix Clone</h3>
+                            <p>
+                                An HTML/CSS Netflix clone is a frontend-only project for mastering responsive design. It
+                                avoids backend complexity, allowing developers to focus entirely on semantic markup,
+                                Flexbox/Grid layouts, custom animations, and cross-device optimization using iconic
+                                streaming UI components.
+                            <div class="project-stack">
+                                <span class="stack-tag">HTML</span>
+                                <span class="stack-tag">CSS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://dipu-ray.github.io/netflix-clone/" class="proj-btn proj-btn-fill">Live
+                                    Demo ↗</a>
+                                <a href="https://github.com/dipu-ray/netflix-clone"
+                                    class="proj-btn proj-btn-outline">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card reveal">
+                        <div class="project-thumb bg-p2">
+                            <div class="project-thumb-bg">
+                                <img src="assets/images/projects/amazon-clone.png"
+                                    alt="Amazon Clone Project Screenshot">
+                            </div>
+                            <span class="project-badge badge-archive">Archived</span>
+                        </div>
+                        <div class="project-body">
+                            <h3>Amazon Clone</h3>
+                            <p>
+                                Using HTML, CSS, and Bootstrap ensures a structured, responsive frontend that mirrors
+                                Amazon's marketplace. Bootstrap’s grid system and utility classes accelerate
+                                development, delivering seamless responsiveness across all devices and mobile-first.
+                            </p>
+                            <div class="project-stack">
+                                <span class="stack-tag">HTML</span>
+                                <span class="stack-tag">CSS</span>
+                                <span class="stack-tag">Bootstrap</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://dipu-ray.github.io/amazon-clone/" class="proj-btn proj-btn-fill">Live
+                                    Demo ↗</a>
+                                <a href="https://github.com/dipu-ray/amazon-clone"
+                                    class="proj-btn proj-btn-outline">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card reveal">
+                        <div class="project-thumb bg-p3">
+                            <div class="project-thumb-bg">
+                                <img src="assets/images/projects/uber-clone.png" alt="Uber Clone Project Screenshot">
+                            </div>
+                            <span class="project-badge badge-featured">Featured</span>
+                        </div>
+                        <div class="project-body">
+                            <h3>Uber Clone</h3>
+                            <p>
+                                HTML, CSS, and Tailwind CSS create a responsive frontend mirroring Uber. While Tailwind
+                                styles a sleek, mobile-first interface.
+                            </p>
+                            <div class="project-stack">
+                                <span class="stack-tag">HTML</span>
+                                <span class="stack-tag">CSS</span>
+                                <span class="stack-tag">Tailwind CSS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://dipu-ray.github.io/uber-clone/" class="proj-btn proj-btn-fill">Live
+                                    Demo ↗</a>
+                                <a href="https://github.com/dipu-ray/uber-clone"
+                                    class="proj-btn proj-btn-outline">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card reveal">
+                        <div class="project-thumb bg-p4">
+                            <div class="project-thumb-bg">
+                                🏠
+                            </div>
+                            <!-- <span class="project-badge badge-new">New</span> -->
+                            <span class="project-badge badge-wip">In Progress</span>
+                        </div>
+                        <div class="project-body">
+                            <h3>🚀 Coming Soon</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus quia sit quae
+                                molestias!</p>
+                            <div class="project-stack">
+                                <span class="stack-tag">HTML</span>
+                                <span class="stack-tag">CSS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#x" class="proj-btn proj-btn-fill">Live Demo ↗</a>
+                                <a href="#x" class="proj-btn proj-btn-outline">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5 -->
+                    <div class="project-card reveal">
+                        <div class="project-thumb bg-p5">
+                            <div class="project-thumb-bg">🌿</div>
+                            <span class="project-badge badge-wip">In Progress</span>
+                        </div>
+                        <div class="project-body">
+                            <h3>🚀 Coming Soon</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus quia sit quae
+                                molestias!
+                            </p>
+                            <div class="project-stack">
+                                <span class="stack-tag">Python</span>
+                                <span class="stack-tag">Django</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#x" class="proj-btn proj-btn-fill">Live Demo ↗</a>
+                                <a href="#x" class="proj-btn proj-btn-outline">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-logo">DR.</div>
+                <p class="footer-copy">© 2026 Dipu Ray. Crafted with <span>♥</span> and lots of coffee.</p>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/dipu.591" class="social-btn" title="Facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/dipu_ray.16/" class="social-btn" title="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/dipu-ray" class="social-btn" title="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/dipu-ray/" class="social-btn" title="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Add my JavaScript file -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

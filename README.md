@@ -14,7 +14,7 @@ _Crafting clean UIs & smooth interactions_
 </div>
 
 **Started:** 03 June, 2025  
-**Last Updated:** 20 June, 2026
+**Last Updated:** 03 August, 2026
 
 ---
 
@@ -34,8 +34,8 @@ This is my personal portfolio website — built to showcase my skills, projects,
     <td><b>📱 Mobile View</b></td>
   </tr>
   <tr>
-    <td><img src="./assets/demo/desktop.png" width="500px"></td>
-    <td><img src="./assets/demo/mobile.png" width="180px"></td>
+    <td><img src="./assets/images/preview/desktop.png" width="500px"></td>
+    <td><img src="./assets/images/preview/mobile.png" width="180px"></td>
   </tr>
 </table>
 
@@ -66,16 +66,30 @@ This is my personal portfolio website — built to showcase my skills, projects,
 ## 📁 Project Structure
 
 ```
-portfolio/
-├── assets/                         # Non code files
-│   └── demo/                       # Portfolio Demo
-│   └── images/                     # Images & Icon
-│   └── projects/                   # Projects Photos
-│   └── resume/                     # Resume or CV
+my-portfolio/
+├── assets/
+│   ├── docs/
+│   │   └── resume.pdf
+│   ├── icons/
+│   │   └── favicon.png
+│   └── images/
+│       ├── preview/
+│       │   ├── desktop.png
+│       │   └── mobile.png
+│       ├── profile/
+│       │   ├── about.png
+│       │   └── hero.png
+│       └── projects/
+│           ├── amazon-clone.png
+│           ├── netflix-clone.png
+│           └── uber-clone.png
+├── css/
+│   └── style.css
+├── js/
+│   └── main.js
 ├── README.md
+├── all-projects.html
 └── index.html
-└── script.js
-└── style.css
 ```
 
 ---

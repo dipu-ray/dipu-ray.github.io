@@ -79,10 +79,7 @@ my-portfolio/
 │       ├── profile/
 │       │   ├── about.png
 │       │   └── hero.png
-│       └── projects/
-│           ├── amazon-clone.png
-│           ├── netflix-clone.png
-│           └── uber-clone.png
+│       └── projects/ ...
 ├── css/
 │   └── style.css
 ├── js/

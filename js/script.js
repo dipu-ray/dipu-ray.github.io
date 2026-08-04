@@ -48,3 +48,18 @@ contactForm.addEventListener("submit", function (event) {
         contactForm.reset();
     }
 });
+
+
+// Back to 'index' all section from 'all project' file
+window.addEventListener('DOMContentLoaded', () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const targetSectionId = urlParams.get('scrollTo');
+    if (targetSectionId) {
+        const targetSection = document.getElementById(targetSectionId);
+        if (targetSection) {
+            setTimeout(() => {
+                targetSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }, 100);
+        }
+    }
+});

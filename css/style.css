@@ -62,6 +62,10 @@ section {
     z-index: 1;
 }
 
+.mt-2 {
+    margin-top: 25px;
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar {
     width: 6px;

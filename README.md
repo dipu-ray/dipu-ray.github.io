@@ -13,8 +13,8 @@ _Crafting clean UIs & smooth interactions_
 
 </div>
 
-**Started:** 03 June, 2025  
-**Last Updated:** 04 August, 2026
+**Started:** June 3, 2025  
+**Last Updated:** September 16, 2026
 
 ---
 

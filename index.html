@@ -11,14 +11,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dipu Ray</title>
 
+    <!-- Add Favicon -->
+    <link rel="shortcut icon" href="assets/icons/favicon.png" type="image/x-icon">
+
+    <link rel="preload" as="image" href="./assets/images/profile/hero.avif" type="image/avif">
+
     <!-- Google "Poppins" Fonts CDN -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap"
         rel="stylesheet">
-
-    <!-- Add Favicon -->
-    <link rel="shortcut icon" href="assets/icons/favicon.png" type="image/x-icon">
 
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
@@ -109,7 +111,7 @@
                             <div class="avatar-ring"></div>
                             <div class="avatar-ring-2"></div>
                             <div class="avatar-img">
-                                <img src="assets/images/profile/hero.png" alt="Dipu Ray">
+                                <img src="assets/images/profile/hero.avif" alt="Dipu Ray">
                             </div>
                             <div class="chip chip-1">🎨 Tailwind CSS</div>
                             <div class="chip chip-2">⚡ JavaScript</div>
@@ -132,7 +134,7 @@
                     <div class="about-visual reveal">
                         <div class="about-card">
                             <div class="about-img">
-                                <img src="assets/images/profile/about.png" alt="Dipu Ray">
+                                <img src="assets/images/profile/about.avif" alt="Dipu Ray" loading="lazy">
                             </div>
                             <div class="about-floating-box">
                                 <div class="num">Build</div>
@@ -329,22 +331,25 @@
                     <div class="project-card featured reveal">
                         <div class="project-thumb bg-p1">
                             <div class="project-thumb-bg">
-                                <img src="assets/images/projects/e-learning-design.png"
-                                    alt="E-Learning Platform UI">
+                                <img src="assets/images/projects/e-learning-design.png" alt="E-Learning Platform UI">
                             </div>
                             <span class="project-badge badge-archive">Archived</span>
                         </div>
                         <div class="project-body">
                             <h3>E-Learning Platform</h3>
                             <p>
-                                An HTML and CSS E-Learning platform was a frontend project for mastering modern educational web design. It bypassed backend complexity, letting developers focus entirely on structured course layouts, custom video player interfaces, and responsive navigation grids.
+                                An HTML and CSS E-Learning platform was a frontend project for mastering modern
+                                educational web design. It bypassed backend complexity, letting developers focus
+                                entirely on structured course layouts, custom video player interfaces, and responsive
+                                navigation grids.
                             </p>
                             <div class="project-stack">
                                 <span class="stack-tag">HTML</span>
                                 <span class="stack-tag">CSS</span>
                             </div>
                             <div class="project-links">
-                                <a href="https://dipu-ray.github.io/e-learning-design/" class="proj-btn proj-btn-fill">Live
+                                <a href="https://dipu-ray.github.io/e-learning-design/"
+                                    class="proj-btn proj-btn-fill">Live
                                     Demo ↗</a>
                                 <a href="https://github.com/dipu-ray/e-learning-design/"
                                     class="proj-btn proj-btn-outline">Source Code</a>
@@ -356,15 +361,16 @@
                     <div class="project-card reveal">
                         <div class="project-thumb bg-p2">
                             <div class="project-thumb-bg">
-                                <img src="assets/images/projects/tailwindcss-landing-page.png"
-                                    alt="Landing Page UI">
+                                <img src="assets/images/projects/tailwindcss-landing-page.png" alt="Landing Page UI">
                             </div>
                             <span class="project-badge badge-archive">Archived</span>
                         </div>
                         <div class="project-body">
                             <h3>Landing Page</h3>
                             <p>
-                                TailwindCSS Landing Page is a minimal, responsive template built with pure HTML, CSS, and Tailwind CSS. Lightweight and dependency-free, it helps developers, designers, and marketers easily launch personal projects and product showcases.
+                                TailwindCSS Landing Page is a minimal, responsive template built with pure HTML, CSS,
+                                and Tailwind CSS. Lightweight and dependency-free, it helps developers, designers, and
+                                marketers easily launch personal projects and product showcases.
                             </p>
                             <div class="project-stack">
                                 <span class="stack-tag">HTML</span>
@@ -372,7 +378,8 @@
                                 <span class="stack-tag">Tailwind CSS</span>
                             </div>
                             <div class="project-links">
-                                <a href="https://dipu-ray.github.io/tailwindcss-landing-page/" class="proj-btn proj-btn-fill">Live
+                                <a href="https://dipu-ray.github.io/tailwindcss-landing-page/"
+                                    class="proj-btn proj-btn-fill">Live
                                     Demo ↗</a>
                                 <a href="https://github.com/dipu-ray/tailwindcss-landing-page/"
                                     class="proj-btn proj-btn-outline">Source Code</a>
@@ -391,14 +398,16 @@
                         <div class="project-body">
                             <h3>Restaurant Website</h3>
                             <p>
-                                Restaurant Website is a fully responsive, multi-page website built entirely with HTML5 and CSS3 — no frameworks, no libraries, pure craftsmanship.
+                                Restaurant Website is a fully responsive, multi-page website built entirely with HTML5
+                                and CSS3 — no frameworks, no libraries, pure craftsmanship.
                             </p>
                             <div class="project-stack">
                                 <span class="stack-tag">HTML</span>
                                 <span class="stack-tag">CSS</span>
                             </div>
                             <div class="project-links">
-                                <a href="https://dipu-ray.github.io/restaurant-website/" class="proj-btn proj-btn-fill">Live
+                                <a href="https://dipu-ray.github.io/restaurant-website/"
+                                    class="proj-btn proj-btn-fill">Live
                                     Demo ↗</a>
                                 <a href="https://github.com/dipu-ray/restaurant-website/"
                                     class="proj-btn proj-btn-outline">Source Code</a>
@@ -416,15 +425,18 @@
                         </div>
                         <div class="project-body">
                             <h3>E-Commerce Website</h3>
-                            <p>E-Commerce Website is a fully responsive, multi-page digital storefront built entirely with HTML5, CSS3, and Bootstrap 5.</p>
+                            <p>E-Commerce Website is a fully responsive, multi-page digital storefront built entirely
+                                with HTML5, CSS3, and Bootstrap 5.</p>
                             <div class="project-stack">
                                 <span class="stack-tag">HTML</span>
                                 <span class="stack-tag">CSS</span>
                                 <span class="stack-tag">Bootstrap</span>
                             </div>
                             <div class="project-links">
-                                <a href="https://dipu-ray.github.io/e-commerce-website/" class="proj-btn proj-btn-fill">Live Demo ↗</a>
-                                <a href="https://github.com/dipu-ray/e-commerce-website/" class="proj-btn proj-btn-outline">Source Code</a>
+                                <a href="https://dipu-ray.github.io/e-commerce-website/"
+                                    class="proj-btn proj-btn-fill">Live Demo ↗</a>
+                                <a href="https://github.com/dipu-ray/e-commerce-website/"
+                                    class="proj-btn proj-btn-outline">Source Code</a>
                             </div>
                         </div>
                     </div>
@@ -439,7 +451,8 @@
                         </div>
                         <div class="project-body">
                             <h3>Travel Website</h3>
-                            <p>Travel Website is a fully responsive, multi-page digital exploration platform built entirely with HTML5, CSS3, and Tailwind CSS.
+                            <p>Travel Website is a fully responsive, multi-page digital exploration platform built
+                                entirely with HTML5, CSS3, and Tailwind CSS.
                             </p>
                             <div class="project-stack">
                                 <span class="stack-tag">HTML</span>
@@ -447,8 +460,10 @@
                                 <span class="stack-tag">Tailwind CSS</span>
                             </div>
                             <div class="project-links">
-                                <a href="https://dipu-ray.github.io/travel-website/" class="proj-btn proj-btn-fill">Live Demo ↗</a>
-                                <a href="https://github.com/dipu-ray/travel-website/" class="proj-btn proj-btn-outline">Source Code</a>
+                                <a href="https://dipu-ray.github.io/travel-website/" class="proj-btn proj-btn-fill">Live
+                                    Demo ↗</a>
+                                <a href="https://github.com/dipu-ray/travel-website/"
+                                    class="proj-btn proj-btn-outline">Source Code</a>
                             </div>
                         </div>
                     </div>

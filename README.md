@@ -15,7 +15,7 @@ _Crafting clean UIs & smooth interactions, one component at a time._
 </a>
 
 ![Started](https://img.shields.io/badge/Started-June%203%2C%202025-informational?style=flat-square&logo=github&logoColor=white&labelColor=0f6e56)
-![Last Updated](https://img.shields.io/badge/Last%20Updated-September%2018%2C%202026-informational?style=flat-square&logo=github&logoColor=white&labelColor=0A66C2)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-September%2025%2C%202026-informational?style=flat-square&logo=github&logoColor=white&labelColor=0A66C2)
 
 </div>
 

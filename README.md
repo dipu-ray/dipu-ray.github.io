@@ -176,11 +176,3 @@ Your site will be live at `https://dipu-ray.github.io/`
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f6e56,100:0A66C2&height=120&section=footer" width="100%" />
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f6e56,100:0A66C2&height=120&section=footer" width="100%" />
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f6e56,100:0A66C2&height=120&section=footer" width="100%" />
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f6e56,100:0A66C2&height=120&section=footer" width="100%" />
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f6e56,100:0A66C2&height=120&section=footer" width="100%" />
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f6e56,100:0A66C2&height=120&section=footer" width="100%" />
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f6e56,100:0A66C2&height=120&section=footer" width="100%" />
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f6e56,100:0A66C2&height=120&section=footer" width="100%" />
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f6e56,100:0A66C2&height=120&section=footer" width="100%" />

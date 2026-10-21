@@ -830,6 +830,157 @@ nav .container {
     color: var(--accent1);
 }
 
+/* Experience Section */
+#experiences {
+    padding: 120px 0;
+    background: linear-gradient(180deg, transparent, rgba(61, 240, 200, .02) 50%, transparent);
+}
+
+.exp-header {
+    text-align: center;
+}
+
+.exp-header .section-tag {
+    justify-content: center;
+}
+
+.exp-header .section-sub {
+    margin: 0 auto 56px;
+    text-align: center;
+}
+
+.exp-timeline {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.exp-timeline::before {
+    content: '';
+    position: absolute;
+    left: 7px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(180deg, var(--accent1), var(--accent2), transparent);
+    border-radius: 99px;
+}
+
+.exp-item {
+    display: grid;
+    grid-template-columns: 16px 1fr;
+    gap: 24px;
+    align-items: start;
+    margin-bottom: 48px;
+}
+
+.exp-dot-wrap {
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6px;
+}
+
+.exp-content {
+    grid-column: 2;
+    text-align: left;
+}
+
+.exp-dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--grad);
+    border: 3px solid var(--bg);
+    box-shadow: 0 0 0 3px rgba(124, 106, 255, .3);
+    flex-shrink: 0;
+    position: relative;
+}
+
+.exp-dot::after {
+    content: '';
+    position: absolute;
+    inset: -6px;
+    border-radius: 50%;
+    border: 1px solid rgba(124, 106, 255, .2);
+}
+
+.exp-card {
+    width: 100%;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 24px;
+    transition: transform .3s, border-color .3s;
+}
+
+.exp-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(124, 106, 255, .25);
+}
+
+.exp-card .year {
+    font-size: .75rem;
+    color: var(--accent1);
+    font-weight: 600;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.exp-card h3 {
+    font-family: var(--font-head);
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 4px;
+}
+
+.exp-card .company {
+    font-size: .85rem;
+    color: var(--muted);
+    margin-bottom: 10px;
+}
+
+.exp-points {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.exp-points li {
+    position: relative;
+    padding-left: 18px;
+    margin-bottom: 6px;
+    font-size: .83rem;
+    color: var(--muted);
+    line-height: 1.65;
+}
+
+.exp-points li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: .65em;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--accent1);
+}
+
+.exp-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 10px;
+    padding: 4px 10px;
+    background: rgba(61, 240, 200, .1);
+    border-radius: 99px;
+    font-size: .75rem;
+    color: var(--accent3);
+    font-weight: 500;
+}
+
 /* Projects Section */
 #projects {
     padding: 120px 0;
@@ -1415,6 +1566,14 @@ footer {
 
 /* Responsive Design */
 @media (max-width: 1024px) {
+    .nav-links {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
     .hero-inner {
         grid-template-columns: 1fr;
         text-align: center;
@@ -1476,14 +1635,6 @@ footer {
 
     .container {
         padding: 0 20px;
-    }
-
-    .nav-links {
-        display: none;
-    }
-
-    .hamburger {
-        display: flex;
     }
 
     .hero-inner {
